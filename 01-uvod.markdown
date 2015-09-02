@@ -15,4 +15,23 @@
 
 # Magija na serveru [Backend] 
 
-- 
+- HTTP Server
+- Server-side scripting
+- Baze podataka
+
+
+- Production i development okruženja
+- Virtualizacija i izolacija okruženja
+
+
+- Održavanje servera
+- Deployment
+
+# Povećanje efikasnosti
+
+- Organizacija razvojnog okruženja
+- Frontend/Backend Framework
+- Alati za povećanje efikasnosti
+	- Virtualizacija razvojnog okruženja
+	- Package managment
+	- Automatizacija
