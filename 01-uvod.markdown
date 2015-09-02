@@ -5,7 +5,7 @@ class: center, middle, inverse
 
 # Osnove Web Tehnologija
 
-## Nemanja Nedeljković
+.footnote[[Nemanja Nedeljković](https://nemanjan00.org/)]
 
 ---
 layout: false
