@@ -8,6 +8,7 @@ class: center, middle, inverse
 ## Nemanja Nedeljković
 
 ---
+layout: false
 
 # Komunikacija [Računar-Server]
 
