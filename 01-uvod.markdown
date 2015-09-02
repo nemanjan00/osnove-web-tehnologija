@@ -1,3 +1,8 @@
+name: inverse
+layout: true
+class: center, middle, inverse
+---
+
 # Osnove Web Tehnologija
 
 ## Nemanja Nedeljković
