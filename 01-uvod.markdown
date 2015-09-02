@@ -1,6 +1,7 @@
 name: inverse
 layout: true
 class: center, middle, inverse
+
 ---
 
 # Osnove Web Tehnologija
@@ -12,13 +13,13 @@ class: center, middle, inverse
 ## Kako sve to funkcioniše kao celina? 
 
 ---
+
 layout: false
 
 # Komunikacija [Računar-Server]
 
 .left-column[
   ## DNS
-  ## HTTP/S
 ]
 
 .right-column[
@@ -30,6 +31,29 @@ layout: false
   Browser: Hej, ns1.nesto.com, koja je IP adresa za peraperic.com? 
 
   ns1.nesto.com: Hej, pa adresa je 192.168.1.244
+]
+
+---
+
+layout: false
+
+# Komunikacija [Računar-Server]
+
+.left-column[
+  ## DNS
+  ## HTTP/S
+]
+
+.right-column[
+
+  Browser: Hej, 192.168.1.244, daj mi taj i taj i taj fajl na domeni peraperic.com 
+
+  192.168.1.244: Evo ti taj fajl
+
+
+
+  HTTPS - Siguran HTTP [TLS - Transport Layer Security]
+
 ]
 
 ---
