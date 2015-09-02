@@ -50,10 +50,11 @@ layout: false
 
   192.168.1.244: Evo ti taj fajl
 
-
+  
 
   HTTPS - Siguran HTTP [TLS - Transport Layer Security]
-
+  
+  POST, GET, PUT, DELETE
 ]
 
 ---
