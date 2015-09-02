@@ -16,8 +16,10 @@ layout: false
 
 # Komunikacija [Računar-Server]
 
-- DNS
-- HTTP/S
+.left-column[
+	## DNS
+	## HTTP(S)
+]
 
 ---
 
