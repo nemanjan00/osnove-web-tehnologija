@@ -18,7 +18,7 @@ layout: false
 
 .left-column[
   ## DNS
-  ## HTTP(S)
+  ## HTTP/S
 ]
 
 Browser: Hej, DNSu, gde se nalaze nameserveri za domenu peraperic.com? 
