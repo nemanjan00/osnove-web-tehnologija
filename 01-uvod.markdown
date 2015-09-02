@@ -8,6 +8,10 @@ class: center, middle, inverse
 .footnote[[Nemanja Nedeljković](https://nemanjan00.org/)]
 
 ---
+
+## Kako sve to funkcioniše kao celina? 
+
+---
 layout: false
 
 # Komunikacija [Računar-Server]
