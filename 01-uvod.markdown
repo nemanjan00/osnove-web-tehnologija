@@ -17,17 +17,20 @@ layout: false
 # Komunikacija [Računar-Server]
 
 .left-column[
-  ## DNS
-  ## HTTP/S
+	## DNS
+	## HTTP/S
 ]
 
-Browser: Hej, DNSu, gde se nalaze nameserveri za domenu peraperic.com? 
+.right-column[
 
-DNS: Hej, oni su ns1.nesto.com i ns2.nesto.com
+	Browser: Hej, DNSu, gde se nalaze nameserveri za domenu peraperic.com? 
 
-Browser: Hej, ns1.nesto.com, koja je IP adresa za peraperic.com? 
+	DNS: Hej, oni su ns1.nesto.com i ns2.nesto.com
 
-ns1.nesto.com: Hej, pa adresa je 192.168.1.244
+	Browser: Hej, ns1.nesto.com, koja je IP adresa za peraperic.com? 
+
+	ns1.nesto.com: Hej, pa adresa je 192.168.1.244
+]
 
 ---
 
