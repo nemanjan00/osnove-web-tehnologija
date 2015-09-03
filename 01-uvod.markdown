@@ -47,6 +47,23 @@ layout: false
 
 .left-column[
   ## DNS
+]
+
+.right-column[
+  ## Protokol
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/72snZctFFtA" frameborder="0" allowfullscreen></iframe>
+
+]
+
+---
+
+layout: false
+
+# Komunikacija [Računar-Server]
+
+.left-column[
+  ## DNS
   ## HTTP/S
 ]
 
