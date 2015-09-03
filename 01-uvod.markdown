@@ -23,6 +23,7 @@ layout: false
 ]
 
 .right-column[
+  ## Protokol
 
   Browser: Hej, root DNSu, gde se nalazi TLD za domenu com? 
 
