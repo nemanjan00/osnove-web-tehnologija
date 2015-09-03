@@ -54,11 +54,22 @@ layout: false
   Browser: Hej, 192.168.1.244, daj mi taj i taj fajl na domeni peraperic.com, a evo ti i neki argumenti 
 
   192.168.1.244: Evo ti taj fajl
+]
 
-  
+---
 
-  HTTPS - Siguran HTTP [TLS - Transport Layer Security]
- 
+layout: false
+
+# Komunikacija [Računar-Server]
+
+.left-column[
+  ## DNS
+  ## HTTP/S
+]
+
+.right-column[
+
+  ## Osnovni zahtevi
 
   POST - Slanje nekih podataka npr. iz forme [Prosleđuje argumente u samom zahtevu]
 
@@ -66,6 +77,7 @@ layout: false
 
   HEAD - Isto kao i GET, samo što se vraća samo HEADER odgovora
 
+  ## Ređe korišćeni zahtevi
 
   PUT - Sačuvaj podatke na toj adresi
 
