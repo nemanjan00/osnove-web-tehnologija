@@ -116,9 +116,9 @@ layout: false
 ]
 
 .right-column[
-  ## HTML
+  ## HTML 
 
-  Samo tamo neki bzvz tekst koji nema veze sa životom, zato što, u mogućnosti sam....
+  Samo tamo neki bzvz tekst koji nema veze sa životom, zato što, u mogućnosti sam...
 ]
 
 ---
