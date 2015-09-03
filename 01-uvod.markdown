@@ -50,6 +50,7 @@ layout: false
 ]
 
 .right-column[
+  ## Protokol
 
   Browser: Hej, 192.168.1.244, daj mi taj i taj fajl na domeni peraperic.com, a evo ti i neki argumenti 
 
