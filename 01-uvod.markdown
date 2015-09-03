@@ -58,12 +58,17 @@ layout: false
   
 
   HTTPS - Siguran HTTP [TLS - Transport Layer Security]
-  
+ 
+
   POST - Slanje nekih podataka npr. iz forme [Prosleđuje argumente u samom zahtevu]
+
   GET - Zahtev za podacima [može da prosledi neke argumente u URLu]
+
   HEAD - Isto kao i GET, samo što se vraća samo HEADER odgovora
-  
+
+
   PUT - Sačuvaj podatke na toj adresi
+
   DELETE - Obriši podatke sa te adrese
 ]
 
