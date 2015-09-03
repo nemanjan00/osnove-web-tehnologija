@@ -24,13 +24,18 @@ layout: false
 
 .right-column[
 
-  Browser: Hej, DNSu, gde se nalaze nameserveri za domenu peraperic.com? 
+  Browser: Hej, root DNSu, gde se nalazi TLD za domenu com? 
 
-  DNS: Hej, oni su ns1.nesto.com i ns2.nesto.com
+  DNS Root: Na toj i toj adresi
+
+  Browser: Hej TLD, gde se nalaze nameserveri za peraperic.com? 
+
+  TLD: Hej, oni su ns1.nesto.com i ns2.nesto.com
 
   Browser: Hej, ns1.nesto.com, koja je IP adresa za peraperic.com? 
 
   ns1.nesto.com: Hej, pa adresa je 192.168.1.244
+
 ]
 
 ---
@@ -46,7 +51,7 @@ layout: false
 
 .right-column[
 
-  Browser: Hej, 192.168.1.244, daj mi taj i taj i taj fajl na domeni peraperic.com 
+  Browser: Hej, 192.168.1.244, daj mi taj i taj fajl na domeni peraperic.com, a evo ti i neki argumenti 
 
   192.168.1.244: Evo ti taj fajl
 
@@ -54,7 +59,12 @@ layout: false
 
   HTTPS - Siguran HTTP [TLS - Transport Layer Security]
   
-  POST, GET, PUT, DELETE
+  POST - Slanje nekih podataka npr. iz forme [Prosleđuje argumente u samom zahtevu]
+  GET - Zahtev za podacima [može da prosledi neke argumente u URLu]
+  HEAD - Isto kao i GET, samo što se vraća samo HEADER odgovora
+  
+  PUT - Sačuvaj podatke na toj adresi
+  DELETE - Obriši podatke sa te adrese
 ]
 
 ---
