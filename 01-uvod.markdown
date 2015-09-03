@@ -107,9 +107,19 @@ layout: false
 
 # Osnovni jezici na Webu [Frontend]
 
-- HTML
-- CSS
-- JavaScript
+.left-column[
+
+  ## HTML
+  ## CSS
+  ## JavaScript
+
+]
+
+.right-column[
+  ## HTML
+
+  Samo tamo neki bzvz tekst koji nema veze sa životom, zato što, u mogućnosti sam....
+]
 
 ---
 
