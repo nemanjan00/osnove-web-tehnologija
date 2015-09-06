@@ -107,8 +107,6 @@ layout: false
 .left-column[
 
   ## HTML
-  ## CSS
-  ## JavaScript
 
 ]
 
@@ -136,6 +134,40 @@ layout: false
   		<p>paragraf</p>
   	</body>
   </html>
+  ```
+]
+
+---
+
+# Osnovni jezici na Webu [Frontend]
+
+.left-column[
+
+  ## HTML
+  ## CSS
+  ## JavaScript
+
+]
+
+.right-column[
+  ## CSS [Cascading Style Sheets] 
+
+  - CSS je jezik koji opisuje izgled stranice [HTMLa]
+
+  - Sačinjen je takođe od blokova koda
+
+  ```CSS
+  selector {property: value; property: value...}
+  ```
+  
+  - Primer
+
+  ```CSS
+  body { /* Stil se odnosi na body blok */
+  	color: white; /* Tekst je bele boje */
+  	background-color: black; /* Boja pozadine je crna */
+  	margin-top: 15px; /* Gornja margina je 15 pixela */
+  }
   ```
 ]
 
