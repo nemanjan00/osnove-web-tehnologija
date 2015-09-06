@@ -41,7 +41,6 @@ layout: false
 
 ---
 
-layout: false
 
 # Komunikacija [Računar-Server]
 
@@ -58,7 +57,6 @@ layout: false
 
 ---
 
-layout: false
 
 # Komunikacija [Računar-Server]
 
@@ -77,7 +75,6 @@ layout: false
 
 ---
 
-layout: false
 
 # Komunikacija [Računar-Server]
 
@@ -116,9 +113,30 @@ layout: false
 ]
 
 .right-column[
-  ## HTML 
+  ## HTML [HyperText Markup Language]
 
-  Samo tamo neki bzvz tekst koji nema veze sa životom, zato što, u mogućnosti sam...
+  - HTML jezik koji opisuje sadržaj stranice. 
+  
+  - Sačinjen je od blokova koda
+
+  ```HTML
+	<ime-taga atribut1="vrednost" atribut2=...> </imetaga>
+  ```
+
+  - Primer
+
+  ```HTML
+  <html>
+  	<head>
+  		<title>
+  			Primer
+  		</title>
+  	</head>
+  	<body>
+  		<p>paragraf</p>
+  	</body>
+  </html>
+  ```
 ]
 
 ---
