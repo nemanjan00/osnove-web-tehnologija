@@ -198,11 +198,16 @@ layout: false
   
   - Primer
 
-  ```CSS
-  body { /* Stil se odnosi na body blok */
-  	color: white; /* Tekst je bele boje */
-  	background-color: black; /* Boja pozadine je crna */
-  	margin-top: 15px; /* Gornja margina je 15 pixela */
+  ```javascript
+  var a = 5; var b = 3;
+
+  if(a + b != 8){
+  		document.write("JavaScript je idiot<br>");
+  }
+
+  document.write("Neki tekst<br>");
+
+  alert("Neki tekst");
   }
   ```
 ]
