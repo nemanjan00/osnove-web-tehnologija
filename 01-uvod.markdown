@@ -203,12 +203,9 @@ layout: false
 
   if(a + b != 8){
   		document.write("JavaScript je idiot<br>");
-  }
+  } 
 
-  document.write("Neki tekst<br>");
-
-  alert("Neki tekst");
-  }
+  alert("Neki tekst"); 
   ```
 ]
 
