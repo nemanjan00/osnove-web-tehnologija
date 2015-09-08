@@ -184,14 +184,18 @@ layout: false
 ]
 
 .right-column[
-  ## CSS [Cascading Style Sheets] 
+  ## JavaScript 
 
-  - CSS je jezik koji opisuje izgled stranice [HTMLa]
+  - HTML je scripting jezik na frontendu
 
-  - Sačinjen je takođe od blokova koda
+  - Nalazi se ili se referencira **&lt;script&gt;** tagom
 
-  ```CSS
-  selector {property: value; property: value...}
+  ```HTML
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  
+  <script>
+	/* neki kod */
+  </script>
   ```
   
   - Primer
