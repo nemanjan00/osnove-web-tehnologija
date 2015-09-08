@@ -1,4 +1,4 @@
-name: inverse
+rame: inverse
 layout: true
 class: center, middle, inverse
 
