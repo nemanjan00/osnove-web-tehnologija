@@ -1,4 +1,4 @@
-rame: inverse
+name: inverse
 layout: true
 class: center, middle, inverse
 
@@ -10,11 +10,42 @@ class: center, middle, inverse
 
 ---
 
-## Kako sve to funkcioniše kao celina? 
+## Kako sve to funkcioniše kao celina?
 
 ---
 
 layout: false
+
+# Internet
+
+.left-column[
+  ## localhost
+]
+
+---
+
+layout: false
+
+# Internet
+
+.left-column[
+  ## localhost
+  ## LAN
+]
+
+---
+
+layout: false
+
+# Internet
+
+.left-column[
+  ## localhost
+  ## LAN
+  ## WAN
+]
+
+---
 
 # Komunikacija [Računar-Server]
 
@@ -25,15 +56,15 @@ layout: false
 .right-column[
   ## Protokol
 
-  Browser: Hej, root DNSu, gde se nalazi TLD za domenu com? 
+  Browser: Hej, root DNSu, gde se nalazi TLD za domenu com?
 
   DNS Root: Na toj i toj adresi
 
-  Browser: Hej TLD, gde se nalaze nameserveri za peraperic.com? 
+  Browser: Hej TLD, gde se nalaze nameserveri za peraperic.com?
 
   TLD: Hej, oni su ns1.nesto.com i ns2.nesto.com
 
-  Browser: Hej, ns1.nesto.com, koja je IP adresa za peraperic.com? 
+  Browser: Hej, ns1.nesto.com, koja je IP adresa za peraperic.com?
 
   ns1.nesto.com: Hej, pa adresa je 192.168.1.244
 
@@ -68,7 +99,7 @@ layout: false
 .right-column[
   ## Protokol
 
-  Browser: Hej, 192.168.1.244, daj mi taj i taj fajl na domeni peraperic.com, a evo ti i neki argumenti 
+  Browser: Hej, 192.168.1.244, daj mi taj i taj fajl na domeni peraperic.com, a evo ti i neki argumenti
 
   192.168.1.244: Evo ti taj fajl
 ]
@@ -113,8 +144,8 @@ layout: false
 .right-column[
   ## HTML [HyperText Markup Language]
 
-  - HTML jezik koji opisuje sadržaj stranice. 
-  
+  - HTML jezik koji opisuje sadržaj stranice.
+
   - Sačinjen je od blokova koda
 
   ```HTML
@@ -125,14 +156,14 @@ layout: false
 
   ```HTML
   <html>
-  	<head>
-  		<title>
-  			Primer
-  		</title>
-  	</head>
-  	<body>
-  		<p>paragraf</p>
-  	</body>
+	  <head>
+		  <title>
+			  Primer
+		  </title>
+	  </head>
+	  <body>
+		  <p>paragraf</p>
+	  </body>
   </html>
   ```
 ]
@@ -149,7 +180,7 @@ layout: false
 ]
 
 .right-column[
-  ## CSS [Cascading Style Sheets] 
+  ## CSS [Cascading Style Sheets]
 
   - CSS je jezik koji opisuje izgled stranice [HTMLa]
 
@@ -158,14 +189,14 @@ layout: false
   ```CSS
   selector {property: value; property: value...}
   ```
-  
+
   - Primer
 
   ```CSS
   body { /* Stil se odnosi na body blok */
-  	color: white; /* Tekst je bele boje */
-  	background-color: black; /* Boja pozadine je crna */
-  	margin-top: 15px; /* Gornja margina je 15 pixela */
+	  color: white; /* Tekst je bele boje */
+	  background-color: black; /* Boja pozadine je crna */
+	  margin-top: 15px; /* Gornja margina je 15 pixela */
   }
   ```
 ]
@@ -184,7 +215,7 @@ layout: false
 ]
 
 .right-column[
-  ## JavaScript 
+  ## JavaScript
 
   - HTML je scripting jezik na frontendu
 
@@ -192,27 +223,27 @@ layout: false
 
   ```HTML
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  
+
   <script> /* neki kod */ </script>
   ```
-  
+
   - Primer
 
   ```javascript
   var a = 5; var b = 3;
 
   if(a + b != 8){
-  		document.write("JavaScript je idiot<br>");
-  } 
+		  document.write("JavaScript je idiot<br>");
+  }
 
-  alert("Neki tekst"); 
+  alert("Neki tekst");
   ```
 ]
 
 
 ---
 
-# Magija na serveru [Backend] 
+# Magija na serveru [Backend]
 
 - HTTP Server
 - Server-side scripting
