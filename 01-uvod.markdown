@@ -1,4 +1,3 @@
-name: inverse
 layout: true
 class: center, middle, inverse
 
@@ -22,9 +21,26 @@ layout: false
   ## localhost
 ]
 
----
+.right-column[
+  ## Pojedinačni računar na mreži
 
-layout: false
+  ### IP [192.168.1.*]
+
+  ### Portovi
+
+  80 - HTTP
+
+  443 - HTTPS
+
+
+  21 - FTP
+
+  22 - SSH [FTPS]
+
+
+]
+
+---
 
 # Internet
 
@@ -33,9 +49,15 @@ layout: false
   ## LAN
 ]
 
----
+.right-column[
+  ## Lokalna mreža
 
-layout: false
+  ### Gateway [192.168.1.1]
+
+  ### DHCP (Dodeljuje IP)
+]
+
+---
 
 # Internet
 
@@ -45,7 +67,28 @@ layout: false
   ## WAN
 ]
 
+.right-column[
+  ## Internet!
+
+  ### Public IP
+
+  ### NAT
+
+  ### Port forwarding
+]
+
 ---
+
+layout: true
+class: center, middle, inverse
+
+---
+
+## Ok, to su mreže, ali kako moj računar pronađe google.com?
+
+---
+
+layout: false
 
 # Komunikacija [Računar-Server]
 
@@ -72,7 +115,6 @@ layout: false
 
 ---
 
-
 # Komunikacija [Računar-Server]
 
 .left-column[
@@ -88,6 +130,16 @@ layout: false
 
 ---
 
+layout: true
+class: center, middle, inverse
+
+---
+
+## Ok, sada znam IP servera, ali kako računar dobija podatke sa tog servera?
+
+---
+
+layout: false
 
 # Komunikacija [Računar-Server]
 
@@ -132,6 +184,17 @@ layout: false
 ]
 
 ---
+
+layout: true
+class: center, middle, inverse
+
+---
+
+## Dobro, sada imam fajlove, ali kako od gomile teksta i slika nastaje stranica?
+
+---
+
+layout: false
 
 # Osnovni jezici na Webu [Frontend]
 
