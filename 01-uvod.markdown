@@ -233,6 +233,17 @@ layout: false
 
 ---
 
+layout: true
+class: center, middle, inverse
+
+---
+
+## Ok, sadržaj je tu, ali ja hoću da ga ulepšam?
+
+---
+
+layout: false
+
 # Osnovni jezici na Webu [Frontend]
 
 .left-column[
@@ -264,8 +275,18 @@ layout: false
   ```
 ]
 
+---
+
+layout: true
+class: center, middle, inverse
 
 ---
+
+## Još samo interaktivni deo! :)
+
+---
+
+layout: false
 
 # Osnovni jezici na Webu [Frontend]
 
