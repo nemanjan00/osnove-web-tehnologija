@@ -24,7 +24,7 @@ layout: false
 .right-column[
   ## Pojedinačni računar na mreži
 
-  ### IP [192.168.1.*]
+  ### IP [192.168.1.x]
 
   ### Portovi
 
